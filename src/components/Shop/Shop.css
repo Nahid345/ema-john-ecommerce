@@ -14,6 +14,13 @@
     background-color: rgba(255, 153, 0, 0.3);
     
 }
+
+.cart-conatiner button{
+    margin-left: 20px;
+    position: fixed;
+}
+
+
 @media screen and (max-width:900px) {
     .products-conatiner{
         grid-template-columns: repeat(2,1fr);

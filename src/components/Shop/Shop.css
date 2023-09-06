@@ -20,7 +20,28 @@
     position: fixed;
 }
 
+.pagination{
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
+.pagination button{
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+    
+}
+
+.pagination .selected{
+    background-color: goldenrod;
+    border: gold;
+    font-weight: bold;
+    width: 40px;
+    padding: 8px;
+}
 @media screen and (max-width:900px) {
     .products-conatiner{
         grid-template-columns: repeat(2,1fr);

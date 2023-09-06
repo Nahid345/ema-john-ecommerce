@@ -16,15 +16,11 @@ function App() {
       children:[
         {
           path:'/',
-          loader: ()=>{
-             return fetch('products.json');
-          },
           element: <Shop></Shop>
         },
         {
           path:'/orders',
-          loader: productsAndCartLoader
-        ,
+          loader: productsAndCartLoader,
           element: <Orders></Orders>
         },
         {
